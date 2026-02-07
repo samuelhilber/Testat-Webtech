@@ -1,0 +1,177 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Google Sans', sans-serif;
+  font-size: 14px;
+  background-color: #bcbabe;
+  line-height: 1.6em;
+  background: linear-gradient(to bottom, #1995AD 2%, #a1d6e2,#f1f1f1 );
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+main {
+  max-width: 90%;
+  margin: 60px auto;
+  padding: 40px;
+  background: #f1f1f1f5;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  background-color: #1995ad;
+  color: #a1d6e2;
+}
+
+nav li {
+  font-weight: bolder;
+  font-size: 2em;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* Feedback */
+
+.feedback{
+  line-height: 1.5em;
+}
+
+/* me.html */
+
+.profilbild {
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+  }
+
+.box-farbverlauf {
+ width: 300px;
+ height: 300px;
+ background: linear-gradient(#1995ad, #a1d6e2,#f1f1f2, #bcbabe)
+ 
+}
+
+.box-hintergrundbild {
+  width: 300px;
+  height: 300px;
+  background-image: url("../bilder/hintergrundbildtestatbox.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* landing.html */
+
+.newsartikelbild-landing {
+  width: 400px;
+  height: auto;
+}
+
+.container-landing {
+  width: 100%;
+}
+
+.box-landing {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+/* news.html */
+
+.newsartikelbild {
+  width: 90%;
+  height: auto;
+  margin-bottom: 1.1em;
+}
+
+.newsartikel{
+  width: 90%;
+  text-align: justify; /* behebt den Flattersatz */
+  hyphens: auto; 
+  word-wrap: break-word; /* Verhindert Überlaufen */
+
+}
+
+.emphasis-news {
+  width: 90%;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.news-container{
+  width: 100%;
+}
+
+.news-box{
+  float: left;
+  width: 400px;
+  margin: 0 20px 20px 0;
+  box-sizing: border-box;
+}
+
+.news-container::after{
+  content:"";
+  display:block;
+  clear: both;
+}
+
+/* Seiten Anpassungen */
+
+.active{
+  color: #a1d6e2;
+}
+
+.emphasis {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+:focus-visible {
+  outline: 3px solid #7291d3;
+  outline-offset: 3px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #a1d6e2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #bcbabe;
+}
+
+a {
+  text-decoration: none;
+  color: #bcbabe;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding-left: 10px;
+  line-height: 2;
+  background-color: #a1d6e2;
+  /*background: linear-gradient(to right, #29c6e6 5%, #a1d6e2,#f1f1f1 );*/
+
+}
+
+.clearfix::after {
+  content: "";
+  clear:both;
+  display: table;
+}

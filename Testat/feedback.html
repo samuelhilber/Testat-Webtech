@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+  <link href="CSS/normalize.css" rel="stylesheet">
+  <link href="CSS/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a tabindex="0" href="landing.html">Home</a></li>
+        <li><a href="me.html">Über</a></li>
+        <li><a href="news.html">News</a></li>        
+        <li><a class="active" href="feedback.html">Feedback</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+</nav>
+<main class="feedback">
+    <h1>Feedback</h1>
+      <p>Werde ich wahrscheinlich nie lesen!<br>Felder mit * sind Pflichtfelder I gues.</p>
+      <form method="post">
+        <label for="name">Name*:</label>
+        <input type="text" id="name" required />
+        <br>
+        <label for="emailadresse">E-Mail*: Diese wird nicht öffentlich angezeigt, keine Angst!</label>
+        <input type="email" id="emailadresse" required />
+        <br>
+        <label for="title">Titel:</label>
+        <input type="text" id="title" />
+        <br>
+        <label for="message">Inhalt / Erzähl mir was*:</label>
+        <textarea id="message" required></textarea>
+        <br>
+        <div>
+          <button type="submit">Absenden</button>
+          <button type="reset">Abbrechen</button>
+        </div>
+      </form>
+</main>
+</body>
+</html>
+
+
+
+
