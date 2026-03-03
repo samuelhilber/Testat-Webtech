@@ -1,10 +1,9 @@
-
-
-html, body {
+@media (min-width: 1024px) {
+  html, body {
   margin: 0;
   padding: 0;
   font-family: 'Google Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #bcbabe;
   line-height: 1.6em;
   background: linear-gradient(to bottom, #1995AD 2%, #a1d6e2,#f1f1f1 );
@@ -12,7 +11,7 @@ html, body {
   background-attachment: fixed;
 }
 main {
-  max-width: 80%;
+  max-width: 90%;
   margin: 60px auto;
   padding: 40px;
   background: #f1f1f1f5;
@@ -27,7 +26,7 @@ nav ul {
   padding: 5px,0px,0px,0px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1em;
   background-color: #1995ad;
   color: #a1d6e2;
@@ -35,7 +34,9 @@ nav ul {
 
 nav li {
   font-weight: bolder;
-  font-size: 1em;
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px;
   text-decoration: none;
 }
 
@@ -78,7 +79,7 @@ nav li {
 
 .container-landing {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -92,13 +93,13 @@ nav li {
 
 .news-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: stretch;
 }
 
 .news-box{
-  width: 100%;
+  width: 400px;
   margin: 0 20px 20px 0;
 }
 
@@ -169,6 +170,4 @@ h1 {
 }
 
 
-
-
-
+}
