@@ -11,6 +11,7 @@ html, body {
   min-height: 100vh;
   background-attachment: fixed;
 }
+
 main {
   max-width: 80%;
   margin: 60px auto;
@@ -46,6 +47,36 @@ nav li {
 }
 
 /* me.html */
+
+.container-me{
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  gap: 5px;
+  grid-template-areas: 
+  "lebenslauf" "webseite" "hintergrund" " farbverlauf";
+  padding: 20px;
+}
+
+.box-lebenslauf {
+  grid-area: lebenslauf;
+}
+
+.box-webseitegrid{
+  grid-area: webseite;
+}
+
+.box-hintergrundgrid{
+  grid-area: hintergrund;
+}
+
+.box-farbverlaufgrid{
+  grid-area: farbverlauf;
+}
+
+.farbschema {
+    width: 300px;
+}
 
 .profilbild {
   width: 300px;
