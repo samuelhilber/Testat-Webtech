@@ -1,0 +1,7 @@
+@use "uebung";
+
+.scss {
+  background: uebung.$bcimage;
+  width: 400px;
+  height: 400px;
+}
