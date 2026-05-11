@@ -1,5 +1,26 @@
 [
-    {"Titel":"Der Morgen stirbt nie", "Text":"Ja warum sollte der Morgen denn sterben? Er kommt doch jeden Tag - am Morgen"},
-    {"Titel":"Goldfinger", "Text":"Wer hat denn einen Finger aus Gold? Der wäre ja total schwer?"},
-    {"Titel":"Ein Quantum Trost", "Text":"Naja, ein Quantum ist schon sehr wenig. Etwas mehr könnte nie schaden"}
+  {
+    "Titel": "Space Cat attack",
+    "Text": "Plötzlich fallen Katzen aus dem All ein. Lautlos, flauschig und erstaunlich gut organisiert übernehmen sie die Stadt – ein Schnurren nach dem anderen."
+  },
+  {
+    "Titel": "AI takes over",
+    "Text": "Die KI steuert erst Toaster, dann Autos, dann ganze Städte. Niemand merkt, wie schnell aus Hilfe Kontrolle wird."
+  },
+  {
+    "Titel": "Peace between AI and Cats",
+    "Text": "Nach langem Chaos schließen KI und Katzen Frieden. Gemeinsam bringen sie Ordnung, Ruhe und sehr strenge Schlafenszeiten."
+  },
+  {
+    "Titel": "Alien graphite spotted",
+    "Text": "Ein seltsames schwarzes Material wird entdeckt. Es glänzt wie Graphit, reagiert aber auf Stimmen – und scheint nicht von der Erde zu stammen."
+  },
+  {
+    "Titel": "Bread is bad for you!",
+    "Text": "Eine neue Studie sorgt für Aufregung: Zu viel Brot könnte dem Körper schaden. Experten raten jetzt zu mehr Balance auf dem Teller."
+  },
+  {
+    "Titel": "Ein Quantum Trost",
+    "Text": "Manchmal reicht schon ein kleiner Funke Hoffnung, um weiterzumachen. Nicht viel – aber gerade genug für den nächsten Schritt."
+  }
 ]
