@@ -151,7 +151,10 @@ nav li {
   font-size: 1.4em;
 }
 
-
+.ueaberschriftNews {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
 
 /* Seiten Anpassungen */
 
