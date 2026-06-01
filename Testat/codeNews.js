@@ -8,10 +8,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 let idNummer = i + 1;
                 let idNameTitel = "Titel" + idNummer.toString();
                 let idNameText ="Text" + idNummer.toString();
-
                 const a = document.getElementById(idNameTitel);
                 a.innerText = json[i].Titel;
-
+                console.log(idNameTitel)
                 const b = document.getElementById(idNameText);
                 b.innerText = json[i].Text;
             }
