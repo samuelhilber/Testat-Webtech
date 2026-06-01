@@ -1,26 +1,27 @@
 [
   {
     "Titel": "Space Cat attack",
-    "Text": "Plötzlich fallen Katzen aus dem All ein. Lautlos, flauschig und erstaunlich gut organisiert übernehmen sie die Stadt – ein Schnurren nach dem anderen."
+    "Text": "Plötzlich fallen Katzen aus dem All ein. Lautlos, flauschig und erstaunlich gut organisiert übernehmen sie die Stadt – ein Schnurren nach dem anderen.",
+    "Bild": "/Testat/Bilder/NewsArtikel1.png"
   },
   {
     "Titel": "AI takes over",
-    "Text": "Die KI steuert erst Toaster, dann Autos, dann ganze Städte. Niemand merkt, wie schnell aus Hilfe Kontrolle wird."
+    "Text": "Die KI steuert erst Toaster, dann Autos, dann ganze Städte. Niemand merkt, wie schnell aus Hilfe Kontrolle wird.",
+    "Bild": "/Testat/Bilder/NewsArtikel2.png"
   },
   {
     "Titel": "Peace between AI and Cats",
-    "Text": "Nach langem Chaos schließen KI und Katzen Frieden. Gemeinsam bringen sie Ordnung, Ruhe und sehr strenge Schlafenszeiten."
+    "Text": "Nach langem Chaos schließen KI und Katzen Frieden. Gemeinsam bringen sie Ordnung, Ruhe und sehr strenge Schlafenszeiten.",
+    "Bild": "/Testat/Bilder/NewsArtikel3.png"
   },
   {
     "Titel": "Alien graphite spotted",
-    "Text": "Ein seltsames schwarzes Material wird entdeckt. Es glänzt wie Graphit, reagiert aber auf Stimmen – und scheint nicht von der Erde zu stammen."
+    "Text": "Ein seltsames schwarzes Material wird entdeckt. Es glänzt wie Graphit, reagiert aber auf Stimmen – und scheint nicht von der Erde zu stammen.",
+    "Bild": "/Testat/Bilder/NewsArtikel4.png"
   },
   {
     "Titel": "Bread is bad for you!",
-    "Text": "Eine neue Studie sorgt für Aufregung: Zu viel Brot könnte dem Körper schaden. Experten raten jetzt zu mehr Balance auf dem Teller."
-  },
-  {
-    "Titel": "Ein Quantum Trost",
-    "Text": "Manchmal reicht schon ein kleiner Funke Hoffnung, um weiterzumachen. Nicht viel – aber gerade genug für den nächsten Schritt."
+    "Text": "Eine neue Studie sorgt für Aufregung: Zu viel Brot könnte dem Körper schaden. Experten raten jetzt zu mehr Balance auf dem Teller.",
+    "Bild": "/Testat/Bilder/NewsArtikel5.png"
   }
 ]

@@ -4,15 +4,33 @@ window.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then((json) => {
+
+            const container = document.getElementById("newsContainer");
+
             for (let i = 0; i < json.length; i++) {
-                let idNummer = i + 1;
-                let idNameTitel = "Titel" + idNummer.toString();
-                let idNameText ="Text" + idNummer.toString();
-                const a = document.getElementById(idNameTitel);
-                a.innerText = json[i].Titel;
-                console.log(idNameTitel)
-                const b = document.getElementById(idNameText);
-                b.innerText = json[i].Text;
+
+                const artikel = json[i]
+                
+                const newsBox = document.createElement("div");
+                newsBox.classList.add("news-box");
+                
+                const bild = document.createElement("img");
+                bild.classList.add("newsartikelbild");
+                bild.src = artikel.Bild;
+                
+                const titel = document.createElement("div");
+                titel.classList.add("emphasis-news");
+                titel.innerText = artikel.Titel;
+
+                const text = document.createElement("p");
+                text.classList.add("newsartikel")
+                text.innerText = artikel.Text;
+
+                newsBox.appendChild(bild);
+                newsBox.appendChild(titel);
+                newsBox.appendChild(text);
+
+                container.appendChild(newsBox);
             }
         });
 });
