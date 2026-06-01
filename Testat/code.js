@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then((json) => {
-            for (let i = 1; i < 6; i++) {
-                let idNummer = i;
+            for (let i = 0; i < json.length; i++) {
+                let idNummer = i + 1;
                 let idNameTitel = "Titel" + idNummer.toString();
                 let idNameText ="Text" + idNummer.toString();
 
